@@ -41,7 +41,7 @@ html {
 	background-color: #fdd835;
 }
 #celtics, .celtics {
-	background-color: #0f9d58; /* google hangouts green */
+	background-color: #0f9d58 !important; /* google hangouts green */
 }
 #yankees, .yankees {
 	background-color: #283593;
