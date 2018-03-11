@@ -68,10 +68,19 @@ function highlightStudent(student) {
 	setTimeout(function() {
 		//lighten all 
 		// $('.' + classClicked).css({"background-color": lighterColor});
-		$('.' + classClicked).css({"opacity": "0.5"});
+		$('.' + classClicked).css({
+			"opacity": "0.2",
+			"font-weight": "normal",
+			"font-size": "1rem"
+		});
 		// darken selected
 		// student.css({"background-color": darkerColor});
-		student.css({"opacity": "1.0"});
+		student.css({
+			"opacity": "1.0",
+			"font-weight": "bold",
+			"font-size": "1.5rem"
+		});
+		// student.addClass("darken-4");
 		// student.addClass('highlight');
 		// $("#test").text(classColorHex + ", " + darkerColor);
 	}, 800);
