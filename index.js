@@ -9,6 +9,12 @@ $(document).ready(function() {
     // MODAL INITIALIZATION
     $('.modal').modal();
     
+    // CLASSES FLOATING ACTION BUTTON
+    $("#classes-btn").floatingActionButton({
+        'direction': 'right',
+        'hoverEnabled': false
+    });
+    
     // for snowboarder additive identity
     $("#whatProp").mouseenter(function(){
         $("#addIdDiv").fadeTo("slow", 1);

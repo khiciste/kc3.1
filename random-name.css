@@ -56,8 +56,17 @@ html {
 @media (max-width: 600px) {
 	.btn { font-size: 1rem; }
 }
+
+#classes-btn {
+	position: relative;
+	display: block;
+	right: 0px;
+	bottom: 0px;
+	margin-bottom: 20px;
+}
 #go-btn {
-    background-color: purple;
+	display: block;
+	margin-bottom: 20px;
 }
 
 /* INDIVIDUAL STUDENTS */

@@ -87,29 +87,34 @@
   </div>
   
   <main>
-    <!-- Heading -->
+    <!-- JUMBOTRON -->
     <div class="row">
         <div class="jumbotron card">
             <h1>LET'S GET READY TO RUMBLE!!!</h1>
+            <!-- FLOATING CLASSES BUTTON -->
+            <div id="classes-btn" class="fixed-action-btn click-to-toggle">
+              <a class="btn-floating btn-large purple darken-2">
+                <i class="large material-icons">people</i>
+              </a>
+              <ul>
+                <li><a id="yankees" class="btn-floating class-btn blue darken-4"><i class="material-icons">people</i></a></li>
+                <li><a id="celtics" class="btn-floating class-btn green"><i class="material-icons">people</i></a></li>
+                <li><a id="sabres" class="btn-floating class-btn yellow darken-1"><i class="material-icons">people</i></a></li>
+                <li><a id="cuse" class="btn-floating class-btn orange"><i class="material-icons">people</i></a></li>
+                <li><a id="rangers" class="btn-floating class-btn red"><i class="material-icons">people</i></a></li>
+              </ul>
+            </div>
         </div>
     </div>
-	    
-    
-    <!-- CLASS BUTTONS -->
-    <div id="class-buttons" class="row card">
-      <div class="center-align">
-        <a class="col waves-effect waves-light btn class-btn" id="rangers">RANGERS</a>
-        <a class="col waves-effect waves-light btn class-btn" id="cuse">'CUSE</a>
-        <a class="col waves-effect waves-light btn class-btn" id="sabres">SABRES</a>
-        <a class="col waves-effect waves-light btn class-btn" id="celtics">CELTICS</a>
-        <a class="col waves-effect waves-light btn class-btn" id="yankees">YANKEES</a>
-        <a class="col waves-effect waves-light btn" id="go-btn">GO!</a>
-		  </div>
-		</div>
     
     <!-- STUDENTS -->
     <div id="students" class="row card">
+      <!-- GO BUTTON -->
+      <a id="go-btn" class="btn-floating btn-large waves-effect waves-light red">
+        <i class="large material-icons">person_pin_circle</i>
+      </a>
       <div class="center-align">
+        <!-- RANGERS -->
         <div class="students rangers col waves-effect waves-light btn">AJAY</div>
         <div class="students rangers col waves-effect waves-light btn">MALEK</div>
         <div class="students rangers col waves-effect waves-light btn">NICK</div>
