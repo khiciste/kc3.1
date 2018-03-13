@@ -40,7 +40,7 @@ function appendHTML(el, obj) {
 $(document).ready(()=> {
     $.ajax({ 
         type: 'GET', 
-        url: 'math.json', // url of the json file
+        url: 'mathcards.json', // url of the json file
         dataType: 'json',
         success: function (data) { 
             

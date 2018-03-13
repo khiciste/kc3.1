@@ -37,7 +37,7 @@ $(document).ready(function() {
             });
         $(this).css({ 
             "opacity": "1.0",
-			"font-size": "1.5rem"
+// 			"font-size": "1.5rem"
             });
         $('.post').addClass("inactive-post");
         var tag_clicked = $(this).attr("id");
