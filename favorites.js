@@ -28,10 +28,17 @@ $(document).ready(function() {
     //   $('.non-fiction').css({"display": "block"});
     // });
     
+    // TAG FILTERING
     $('.tag').click(function() {
+        $('.tag').css({ "opacity": "0.4" });
+        $(this).css({ "opacity": "1.0" });
         $('.post').addClass("inactive-post");
         var tag_clicked = $(this).attr("id");
         $('.' + tag_clicked).removeClass("inactive-post").addClass("active-post");
+    });
+    // ALL BUTTON
+    $("#all").click(function() {
+        $('.post').removeClass("inactive-post").addClass("active-post");
     });
     
 })

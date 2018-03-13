@@ -11,15 +11,16 @@ html {
 }
 
 /* FONTS */
-body                       { font-family: 'Open Sans', sans-serif; }
-.fiction, 
-.fiction-always-active     { font-family: 'Special Elite', monospace; }
-.marker                    { font-family: 'Permanent Marker', 'Work Sans', sans-serif !important; }
-.non-fiction, 
-.non-fiction-always-active { font-family: 'Cutive Mono', monospace; }
-.open-sans                 { font-family: 'Open Sans', sans-serif; }
-.roboto                    { font-family: 'Roboto', sans-serif; }
-.work-sans                 { font-family: 'Work Sans', sans-serif; }
+body           { font-family: 'Roboto', 'Open Sans', sans-serif; }
+.special-elite { font-family: 'Special Elite', monospace; }
+.marker        { font-family: 'Permanent Marker', 'Work Sans', sans-serif !important; }
+.cutive-mono   { font-family: 'Cutive Mono', monospace; }
+.open-sans     { font-family: 'Open Sans', sans-serif; }
+.roboto        { font-family: 'Roboto', sans-serif; }
+.work-sans     { font-family: 'Work Sans', sans-serif; }
+
+/* COLORS */
+.hangouts-green { background-color: #0f9d58; }
 
 .container {
     /*border: 4px solid black;*/
@@ -150,9 +151,8 @@ main {
     font-size: 3.2rem;
 }
 
-.btn:hover {
-	color: white;
-}
+.btn { margin-right: 5px; margin-bottom: 10px;}
+.btn:hover { color: white; }
 
 /*BIG SCREENS*/
 @media (min-width: 1111px) {
@@ -282,7 +282,6 @@ main img {
 
 /* FAVORITES ============================================= */
 .tag-row       { margin-left: 0; }
-#non-fiction   { font-weight: bold; }
 .active-post   { display: block; }
 .inactive-post { display: none; }
 .review        { padding-bottom:20px; }
