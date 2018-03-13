@@ -45,7 +45,9 @@ h6 {
     color: white;
     border-radius: 3px;
     display: inline-block;
+    font-family: 'Work Sans', 'Roboto', sans-serif;
     font-weight: normal;
+    text-transform: UPPERCASE;
     padding: 6px;
     margin: 4px 4px;
     box-shadow: 2px 2px 2px #888888;
@@ -79,9 +81,19 @@ h6 {
     position: relative;
     box-shadow: 5px 5px 3px #888888;
 }
-
+.card-title, .subtitle {
+    text-transform: UPPERCASE;
+}
+.card-title, .subtitle, .desc {
+    font-family: 'Work Sans', 'Open Sans', sans-serif;
+}
+.subtitle {
+    display: block;
+    margin-bottom: 15px;
+}
 .image {
     position: absolute;
+    margin-top: 30px;
     right: 20px;
 }
 img {
@@ -89,31 +101,41 @@ img {
     height: 300px;
 }
 
+/* CARD SIZES */
+@media (max-width: 420px) {
+  .card {
+      width: 300px;
+      height: 700px;
+  }
+  img {
+      max-width: 300px;
+      height: auto;
+  }
+}
 @media (max-width: 600px) {
   .card {
-      height: 500px;
+      width: 350px;
   }
   span {
     font-size: 18px;
   }
 }
-
 @media (min-width: 800px) {
   .card {
-    width: 700px;
+    width: 500px;
   }
   img {
-      max-width: 600px;
+      max-width: 250px;
+      height: auto;
   }
 }
-
 @media (min-width: 1000px) {
   .card {
-    height: 500px;
     width: 900px;
   }
   img {
       max-width: 800px;
+      height: auto;
   }
 }
 

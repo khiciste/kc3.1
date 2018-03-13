@@ -34,8 +34,8 @@
 		},
 		{
 			"title": "Axis of symmetry",
-			"subtitle": "It is a vertical line with the equation of x = -b/2a.",
-			"desc": "It is the line of symmetry of a parabola and divides a parabola into two equal halves that are reflections of each other about the line of symmetry- it intersects a parabola at its vertex",
+			"subtitle": "A vertical line with the equation of x = -b/2a.",
+			"desc": "The line of symmetry of a parabola and divides a parabola into two equal halves that are reflections of each other about the line of symmetry- it intersects a parabola at its vertex",
 			"img": "math-img/axis-of-symmetry.gif",
 			"tags": ["algebra-1", "geometry", "algebra-2", "alg1-u1", "alg1-u2", "alg1-u3", "alg1-u4", "lines", "linear"],
 			"created": "Lauren"

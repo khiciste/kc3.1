@@ -9,8 +9,9 @@ $img$ - image location for card
 $created$ - created-by attribution for card
 */
 cardhtml = `<div class="card">
-                <span style="font-weight:bold;">$title$</span><span class="subtitle">&nbsp;&nbsp;&nbsp;&nbsp;$subtitle$</span><br>
-                <span>$desc$</span>
+                <span class="card-title" style="font-weight: bold;">$title$</span>
+                <span class="subtitle">$subtitle$</span>
+                <span class="desc" style="padding-bottom: 15px; font-weight: light;">$desc$</span>
                 <div class="image">
                     <img src="$img$" />
                 </div>
