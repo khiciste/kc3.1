@@ -90,23 +90,30 @@
     
   <main>
   <div class="main-flex-container">
-      
-      <div id="top" class="jumbotron card">
-        <div class="review row">
-          <h1 class="marker">FAVORITES.</h1>
-          <p class="non-fiction">
-            I like to read. A lot. 
-            Here are some of my favorites and some reasons why.
-          </p>
-        </div>
+    
+    <!-- JUMBOTRON --> 
+    <div class="jumbotron card">
+      <div class="review row">
+        <h1 class="marker">FAVORITES.</h1>
+        <p class="non-fiction-always-active">
+          I like to read. A lot. 
+          Here are some of my favorites and some reasons why.
+        </p>
       </div>
+    </div>
+    
+    <!-- TAGS -->
+    <div class="row tag-row">
+      <a id="non-fiction" class="tag non-fiction-always-active grey darken-2 waves-effect waves-light btn">NON-FICTION</a>
+      <a id="fiction" class="tag fiction-always-active grey darken-2 waves-effect waves-light btn">FICTION</a>
+    </div>
       
     <!-- REVIEWS -->
     <!-- DEATH BY BLACK HOLE -->
-    <div class="post card">
+    <div class="post card non-fiction">
         <div class="review row">
           <div class="col s12 l9">
-            <h2 class="title non-fiction">DEATH BY BLACK HOLE</h2>
+            <h2 class="title">DEATH BY BLACK HOLE</h2>
           </div>
           <div class="col s12 l3 center-align right">
             <a class="book-link" href="https://www.amazon.com/Death-Black-Hole-Cosmic-Quandaries/dp/039335038X">
@@ -115,9 +122,9 @@
           </div>
           <div class="col s12 l9">
             <a class="author-link" href="http://www.haydenplanetarium.org/tyson/">
-              <h5 class="author non-fiction">Neil deGrasse Tyson</h5>
+              <h5 class="author">Neil deGrasse Tyson</h5>
             </a>
-              <p class="non-fiction">
+              <p>
                 This is one of the greatest books I've ever read about space. 
                 Death by Black Hole by Neil deGrasse Tyson is a collection of 
                 approximately 40 essays by the world-reknowned astrophysicist. 
@@ -126,32 +133,32 @@
                 or check your phone&mdash;and that's assuming you can read 
                 a number a second!
               </p>
-              <p class="non-fiction">
+              <p>
                 Did you know you are made of stardust? It's true. 
                 In fact, nearly everything in the known universe was created 
                 in the core of a star and was born into the unviverse 
                 when that star went supernova&mdash;the technical term 
                 for when a star explodes. 
               </p>
-              <p class="non-fiction">
+              <p>
                 <!-- stardust modal trigger -->
                 <a class="review waves-effect waves-light black btn modal-trigger" href="#stardust-modal">
                   QUOTE
                 </a>
               </p>
-              <p class="non-fiction">
+              <p>
                 Click the button below for the answer to the title question: 
                 How do you die if you're sucked into a black hole? 
               </p>
           </div>
-          <div class="non-fiction col s10 l3 left-align extra-col"></div>
-          <div class="non-fiction col s10 left left-align extra-col">
+          <div class="col s10 l3 left-align extra-col"></div>
+          <div class="col s10 left left-align extra-col">
             <!-- spaghettification -->
             <a id="black-hole-btn" class="review waves-effect waves-light btn black">
               DEATH BY...
             </a>
           </div>
-          <div class="non-fiction col s10 l4 left-align extra-col">
+          <div class="col s10 l4 left-align extra-col">
             <p id="black-hole-spoiler" class="hidden">SPAGHETTIFICATION!</p>
           </div>
         </div><!-- close row -->
@@ -160,7 +167,7 @@
       <div id="stardust-modal" class="modal">
         <div class="modal-content review">
           <h3>WE ARE STARDUST</h3>
-          <p class="non-fiction review">
+          <p class="review">
             “The atoms of our bodies are traceable to stars that manufactured 
             them in their cores and exploded these enriched ingredients across 
             our galaxy, billions of years ago. For this reason, we are 
@@ -176,10 +183,10 @@
       </div>
     
     <!-- MINDSET -->
-    <div id="mindset-card" class="post card">
+    <div id="mindset-card" class="post card non-fiction">
         <div class="review row">
           <div class="col s12 l9">
-            <h2 class="title non-fiction">MINDSET</h2>
+            <h2 class="title">MINDSET</h2>
           </div>
           <div class="col s12 l3 center-align right">
             <a class="author-link" class="book-link" href="https://www.amazon.com/Mindset-Psychology-Carol-S-Dweck/dp/0345472322">
@@ -188,9 +195,9 @@
           </div>
           <div class="col s12 l9">
             <a href="https://mindsetonline.com/whatisit/about/">
-              <h5 class="author non-fiction">Carol S. Dweck, Ph.D.</h5>
+              <h5 class="author">Carol S. Dweck, Ph.D.</h5>
             </a>
-            <p class="non-fiction">
+            <p>
               What's the difference between a fixed mindset and a growth mindset? 
               Having a fixed mindset means believing that you were born with  
               limited abilities and a finite intelligence&ndash;that you'll 
@@ -202,17 +209,17 @@
               can have a profound effect on their success and happiness in life. 
             </p>
           </div>
-          <div class="non-fiction col s10 l3 left-align extra-col"></div>
-          <div class="non-fiction col s10 left left-align extra-col"></div>
-          <div class="non-fiction col s4 center-align extra-col"></div>
+          <div class="col s10 l3 left-align extra-col"></div>
+          <div class="col s10 left left-align extra-col"></div>
+          <div class="col s4 center-align extra-col"></div>
         </div><!-- close row -->
     </div>
     
     <!-- THE GRAPES OF WRATH -->
-    <div class="post card">
+    <div class="post card fiction">
       <div class="review row">
         <div class="col s12 l9">
-          <h2 class="fiction">THE GRAPES OF WRATH</h2>
+          <h2>THE GRAPES OF WRATH</h2>
         </div>
         <div class="col s12 l3 center-align right">
           <a class="book-link" href="https://www.amazon.com/Grapes-Wrath-John-Steinbeck/dp/0143039431">
@@ -221,9 +228,9 @@
         </div>
         <div class="col s12 l9">
           <a class="author-link" href="http://www.steinbeck.org/">
-            <h5 class="author non-fiction">John Steinbeck</h5>
+            <h5 class="author">John Steinbeck</h5>
           </a>
-            <p class="fiction">
+            <p>
               This is one of the greatest books about America I've ever read. 
               The Grapes of Wrath by John Steinbeck 
               takes the reader into the world of American farmers at a
@@ -236,17 +243,17 @@
               most heartless among us. 
             </p>
         </div>
-        <div class="non-fiction col s10 l3 left-align extra-col"></div>
-        <div class="non-fiction col s10 left left-align extra-col"></div>
-        <div class="non-fiction col s4 center-align extra-col"></div>
+        <div class="col s10 l3 left-align extra-col"></div>
+        <div class="col s10 left left-align extra-col"></div>
+        <div class="col s4 center-align extra-col"></div>
       </div><!-- close row -->
     </div>
     
     <!-- A SHORT HISTORY OF NEARLY EVERYTHING -->
-    <div class="post card">
+    <div class="post card non-fiction">
       <div class="review row">
         <div class="col s12 l9">
-          <h2 class="title non-fiction">A SHORT HISTORY OF NEARLY EVERYTHING</h2>
+          <h2 class="title">A SHORT HISTORY OF NEARLY EVERYTHING</h2>
         </div>
         <div class="col s12 l3 center-align right">
           <a class="book-link" href="https://www.amazon.com/Short-History-Nearly-Everything-ebook/dp/B000FBFNII">
@@ -255,15 +262,15 @@
         </div>
         <div class="col s12 l9">
           <a class="author-link" href="https://en.wikipedia.org/wiki/Bill_Bryson">
-            <h5 class="author non-fiction">Bill Bryson</h5>
+            <h5 class="author">Bill Bryson</h5>
           </a>
-            <p class="non-fiction">
+            <p>
               Bill Bryson tells the (scientific) history of the planet, 
               from the Big Bang to now. My favorite part of the book answers 
               the one question we all asked ourselves while gazing up at the 
               stars: Is there life out there? 
             </p>
-            <p class="non-fiction">
+            <p>
               “Still, statistically the probability that there are other 
               thinking beings out there is good… Under Drake’s equation 
               you divide the number of stars in a selected portion of the 
@@ -278,17 +285,17 @@
               the millions.”
             </p>
         </div>
-        <div class="non-fiction col s10 l3 left-align extra-col"></div>
-        <div class="non-fiction col s10 left left-align extra-col"></div>
-        <div class="non-fiction col s4 center-align extra-col"></div>
+        <div class="col s10 l3 left-align extra-col"></div>
+        <div class="col s10 left left-align extra-col"></div>
+        <div class="col s4 center-align extra-col"></div>
       </div><!-- close row -->
     </div>
     
     <!-- PREDICTABLY IRRATIONAL -->
-    <div class="post card">
+    <div class="post card non-fiction">
       <div class="review row">
         <div class="col s12 l9">
-          <h2 class="title non-fiction">PREDICTABLY IRRATIONAL</h2>
+          <h2 class="title">PREDICTABLY IRRATIONAL</h2>
         </div>
         <div class="col s12 l3 center-align right">
           <a class="book-link" href="https://www.amazon.com/Predictably-Irrational-Revised-Expanded-Decisions/dp/0061353248">
@@ -297,37 +304,37 @@
         </div>
         <div class="col s12 l9">
           <a class="author-link" href="http://danariely.com/">
-            <h5 class="author non-fiction">Dan Airely</h5>
+            <h5 class="author">Dan Airely</h5>
           </a>
-            <p class="non-fiction">
+            <p>
               This book introduced me to the field I believe will shape 
               the future more than any other: behavorial economics. 
               Dan Airely expertly explains the science of how we make 
               decisions. 
             </p>
-            <p class="non-fiction">
+            <p>
               Why do our headaches persist after we take a one-cent aspirin 
               but disappear when we take a fifty-cent aspirin? 
             </p>
-            <p class="non-fiction">
+            <p>
               Why do we splurge on a lavish meal but cut coupons to save 
               twenty-five cents on a can of soup?
             </p>
-            <p class="non-fiction">
+            <p>
               The answer is that humans are <span class="bold">predictably irrational</span>.
             </p>
         </div>
-        <div class="non-fiction col s10 l3 left-align extra-col"></div>
-        <div class="non-fiction col s10 left left-align extra-col"></div>
-        <div class="non-fiction col s4 center-align extra-col"></div>
+        <div class="col s10 l3 left-align extra-col"></div>
+        <div class="col s10 left left-align extra-col"></div>
+        <div class="col s4 center-align extra-col"></div>
       </div><!-- close row -->
     </div>
     
     <!-- OUTLIERS -->
-    <div class="post card">
+    <div class="post card non-fiction">
       <div class="review row">
         <div class="col s12 l9">
-          <h2 class="title non-fiction">OUTLIERS</h2>
+          <h2 class="title">OUTLIERS</h2>
         </div>
         <div class="col s12 l3 center-align right">
           <a class="book-link" href="https://www.amazon.com/Outliers-Story-Success-Malcolm-Gladwell/dp/0316017930">
@@ -336,52 +343,52 @@
         </div>
         <div class="col s12 l9">
           <a class="author-link" href="https://en.wikipedia.org/wiki/Malcolm_Gladwell">
-            <h5 class="author non-fiction">Malcolm Gladwell</h5>
+            <h5 class="author">Malcolm Gladwell</h5>
           </a>
-            <p class="non-fiction">
+            <p>
               This is the book that started it all for me.  
               Malcom Gladwell's deep dive into the lives and experiences 
               of humans at the top of their fields opened the flood gates 
               and I haven't stopped reading since. 
             </p>
-            <p class="non-fiction">
+            <p>
               Ever think that some people are just born great? 
               What do Michael Jordan, Wayne Gretzky, Muhammad Ali,
               Bill Gates, Albert Einstein, Elon Musk, John Rockefeller  
               Andrew Carnegie, and The Beatles all have in common? 
             </p>
-            <p class="non-fiction">
+            <p>
               The answer may surprise you. None of them claim to be born 
               with it. Instead, Gladwell discovered that everyone he 
               interviewed&mdash;from elite athletes to prodigies 
               to titans of industry to rock 'n' roll gods&mdash;
               had put in at least 10,000 hours of practice. 
             </p>
-            <p class="non-fiction">
+            <p>
               In perhaps my favorite chapter, Gladwell dispells the myth that 
               Asian children are simply born better at math than the rest of 
               us puny humans by explaining that a few simple factors have 
               given them a leg up and more importantly, what we can learn 
               from them. 
             </p>
-            <p class="non-fiction">
+            <p>
               <!-- factors trigger -->
               <a class="review waves-effect waves-light black btn modal-trigger" href="#factors-modal">
                 WHAT FACTORS?
               </a>
             </p>
         </div>
-        <div class="non-fiction col s10 l3 left-align extra-col"></div>
-        <div class="non-fiction col s10 left left-align extra-col"></div>
-        <div class="non-fiction col s4 center-align extra-col"><!-- BOTTOM RIGHT --></div>
+        <div class="col s10 l3 left-align extra-col"></div>
+        <div class="col s10 left left-align extra-col"></div>
+        <div class="col s4 center-align extra-col"><!-- BOTTOM RIGHT --></div>
       </div><!-- close row -->
     </div>
       <!-- factors modal -->
       <div id="factors-modal" class="modal">
         <div class="modal-content review">
           <h3>WHAT FACTORS, YOU ASK?</h3>
-          <p class="non-fiction">
-            <ul id="outliers-factors" class="non-fiction browser-default square-bulleted">
+          <p>
+            <ul id="outliers-factors" class="browser-default square-bulleted">
               <li>Mandarin has number system that is logical and much easier to learn at a young age</li>
                 <ul class="sub-list browser-default">
                   <li>11 is "ten, one"</li>
@@ -405,10 +412,10 @@
       </div>
     
     <!-- BRAIN RULES -->
-    <div class="post card">
+    <div class="post card non-fiction">
       <div class="review row">
         <div class="col s12 l9">
-          <h2 class="title non-fiction">BRAIN RULES</h2>
+          <h2 class="title">BRAIN RULES</h2>
         </div>
         <div class="col s12 l3 center-align right">
           <a class="book-link" href="https://www.amazon.com/Brain-Rules-Principles-Surviving-Thriving/dp/0979777720">
@@ -417,40 +424,40 @@
         </div>
         <div class="col s12 l9">
           <a class="author-link" href="http://www.brainrules.net/">
-            <h5 class="author non-fiction">John Medina</h5>
+            <h5 class="author">John Medina</h5>
           </a>
-            <p class="non-fiction">
+            <p>
               We don't know much about the human brain. But what we do 
               know can and should have a profound impact on the way we 
               live our lives. Molecular biologist John Medina lays out 
               12 rules for surviving and thriving in the world today.
             </p>
-            <p class="non-fiction">
+            <p>
               How important is sleep? So much so that Medina actually advocates 
               for daily naptime&mdash;even for adults! 
             </p>
-            <p class="non-fiction">
+            <p>
               Did you know that early humans moved up to 12 miles a day! Our 
               brains evolved to learn on the fly&mdash;so get up, get movin',
               and your brain will thank you! 
             </p>
-            <p class="non-fiction">
+            <p>
               <!-- factors trigger -->
               <a class="review waves-effect waves-light red darken-4 btn modal-trigger" href="#insights-modal">
                 INSIGHTS
               </a>
             </p>
         </div>
-        <div class="non-fiction col s10 l3 left-align extra-col"></div>
-        <div class="non-fiction col s10 left left-align extra-col"></div>
-        <div class="non-fiction col s4 center-align extra-col"><!-- BOTTOM RIGHT --></div>
+        <div class="col s10 l3 left-align extra-col"></div>
+        <div class="col s10 left left-align extra-col"></div>
+        <div class="col s4 center-align extra-col"><!-- BOTTOM RIGHT --></div>
       </div><!-- close row -->
     </div>
       <!-- factors modal -->
       <div id="insights-modal" class="modal">
         <div class="modal-content review">
           <h3>INSIGHTS, FOR YOUR BRAIN HEALTH!</h3>
-          <p id="brain-rules-insights" class="non-fiction browser-default square-bulleted">
+          <p id="brain-rules-insights" class="browser-default square-bulleted">
             Get your pencil moving!
             Studies show that this simple step activates more of your brain 
             than sitting still and concentrating with all your might&mdash;
@@ -464,10 +471,10 @@
     
     <!-- template -->
     <!-- TITLE -->
-    <!--<div class="post card">-->
+    <!--<div class="post card non-fiction">-->
     <!--  <div class="review row">-->
     <!--    <div class="col s12 l9">-->
-    <!--      <h2 class="title non-fiction">TITLE</h2>-->
+    <!--      <h2 class="title">TITLE</h2>-->
     <!--    </div>-->
     <!--    <div class="col s12 l3 center-align right">-->
     <!--      <a class="book-link" href="">-->
@@ -476,18 +483,18 @@
     <!--    </div>-->
     <!--    <div class="col s12 l9">-->
     <!--      <a class="author-link" href="">-->
-    <!--        <h5 class="author non-fiction">Author</h5>-->
+    <!--        <h5 class="author">Author</h5>-->
     <!--      </a>-->
-    <!--        <p class="non-fiction">-->
+    <!--        <p>-->
     <!--          Description...-->
     <!--        </p>-->
-    <!--        <p class="non-fiction">-->
+    <!--        <p>-->
     <!--          Description continued...-->
     <!--        </p>-->
     <!--    </div>-->
-    <!--    <div class="non-fiction col s10 l3 left-align extra-col" > UNDER IMAGE </div>-->
-    <!--    <div class="non-fiction col s10 left left-align extra-col" > BOTTOM LEFT </div>-->
-    <!--    <div class="non-fiction col s4 center-align extra-col" > BOTTOM RIGHT </div>-->
+    <!--    <div class="col s10 l3 left-align extra-col" > UNDER IMAGE </div>-->
+    <!--    <div class="col s10 left left-align extra-col" > BOTTOM LEFT </div>-->
+    <!--    <div class="col s4 center-align extra-col" > BOTTOM RIGHT </div>-->
     <!--  </div><!-- close row -->
     <!--</div>-->
       
