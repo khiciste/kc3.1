@@ -30,8 +30,15 @@ $(document).ready(function() {
     
     // TAG FILTERING
     $('.tag').click(function() {
-        $('.tag').css({ "opacity": "0.4" });
-        $(this).css({ "opacity": "1.0" });
+        $('.tag').css({ 
+            "opacity": "0.4",
+			"font-weight": "normal",
+			"font-size": "1.0rem"
+            });
+        $(this).css({ 
+            "opacity": "1.0",
+			"font-size": "1.5rem"
+            });
         $('.post').addClass("inactive-post");
         var tag_clicked = $(this).attr("id");
         $('.' + tag_clicked).removeClass("inactive-post").addClass("active-post");

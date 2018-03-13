@@ -29,8 +29,8 @@ body           { font-family: 'Roboto', 'Open Sans', sans-serif; }
     overflow-x: hidden;
 }
 .centered {
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: auto !important;
+    margin-right: auto !important;
 }
 .centered-text {
     text-align: center;
