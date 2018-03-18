@@ -154,7 +154,7 @@ main {
 .btn { margin-right: 5px; margin-bottom: 10px;}
 .btn:hover { color: white; }
 
-/*BIG SCREENS*/
+/* LARGE SCREENS AND UP*/
 @media (min-width: 1111px) {
     nav {
         margin: 20px;
@@ -177,8 +177,14 @@ main {
         width: 50vw;
         height: auto;
     }
+    .modal-img {
+        position: relative;
+        display: inline-block;
+        width: 40vw;
+        height: auto;
+    }
 }
-/*MEDIUM SCREENS*/
+/* MEDIUM SCREENS AND UP */
 @media (max-width: 1110px) {
     nav {
         margin: 20px 0px 20px 10px;
@@ -204,9 +210,15 @@ main {
         width: 75vw;
         height: auto;
     }
+    .modal-img {
+        position: relative;
+        display: inline-block;
+        width: 40vw;
+        height: auto;
+    }
 }
-/* SMALL SCREENS */
-@media (max-width: 600px) {
+/* SMALL SCREENS AND UP */
+@media (max-width: 800px) {
     nav {
         padding-right: 10px;
     }
@@ -215,14 +227,27 @@ main {
         height: 8vh;
         width: auto;
     }
+    .modal-img {
+        position: relative;
+        display: inline-block;
+        width: 70vw;
+        height: auto;
+    }
 }
-/* SMALL SCREENS */
+/* phone SCREENS */
 @media (max-width: 440px) {
     #nav_first_name {
         font-size: 3rem;
     }
     #nav_last_name {
         font-size: 2rem;
+    }
+    .modal-img {
+        position: relative;
+        display: inline-block;
+        /*height: 60vh;*/
+        width: 70vw;
+        height: auto;
     }
 }
 
@@ -231,6 +256,9 @@ h3 {
     color: #0f9d58; /* google hangouts green */
     font-family: 'Work Sans', 'Open Sans', sans-serif;
     font-size: 2rem;
+}
+.CAPS {
+    text-transform: UPPERCASE;
 }
 p, main ul {
     font-size: 1.2rem;
@@ -244,6 +272,10 @@ main img {
     display: block;
     margin-left: 0;
     margin-right: auto;
+}
+
+.valign-middle {
+    vertical-align: middle;
 }
 
 .caption {
@@ -278,7 +310,6 @@ main img {
     font-weight: bold;
 	color: rgb(0, 89, 45);
 }
-
 
 /* FAVORITES ============================================= */
 .tag-row       { margin-left: 0; }
@@ -332,34 +363,37 @@ footer {
     width: 100%;
 }
 .footer-flex-container {
-    /*border: 2px dashed blue;*/
-    display: inline-flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    position: relative;
-    width: 80%;    
+    position: absolute;
+    width: 79%;    
 }
-.foot {
-    float: right;
+.footer-credit {
+    text-align: right;
     position: relative;
     margin-left: 0;
-    display: block;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
     color: gray;
     font-size: 12px;
-    vertical-align: super;
+    height: 30px;
+    vertical-align: middle;
 }
-#foot-name-link {
+.foot-name-link {
     margin-right: 5px;
 }
 .glyphs {
-    float: right;
+    vertical-align: middle !important;
     height: 18px;
     width: auto;
 }
 .glyphs:hover, glyphs:active {
     height: 20px;
     width: auto;
+}
+#globe-emoji {
+    color: black;
+    font-size: 1.5rem;
+    vertical-align: middle;
+    padding-left: 5px;
 }
 
 /*COLORS*/
