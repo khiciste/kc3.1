@@ -157,7 +157,7 @@ main {
 
 
 /* LARGE SCREENS AND UP*/
-@media (min-width: 1111px) {
+@media (min-width: 992px) {
     nav {
         margin: 20px;
         padding-right: 60px;
@@ -187,7 +187,7 @@ main {
     }
 }
 /* MEDIUM SCREENS AND UP */
-@media (max-width: 1110px) {
+@media (max-width: 991px) {
     nav {
         margin: 20px 0px 20px 10px;
         padding-right: 20px;
@@ -220,7 +220,7 @@ main {
     }
 }
 /* SMALL SCREENS AND UP */
-@media (max-width: 800px) {
+@media (max-width: 767px) {
     nav {
         padding-right: 10px;
     }
@@ -237,7 +237,7 @@ main {
     }
 }
 /* phone SCREENS */
-@media (max-width: 440px) {
+@media (max-width: 479px) {
     #nav_first_name {
         font-size: 3rem;
     }
