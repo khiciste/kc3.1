@@ -262,6 +262,9 @@ h3 {
 .CAPS {
     text-transform: UPPERCASE;
 }
+.italics {
+    font-style: italic;
+}
 p, main ul {
     font-size: 1.2rem;
 }
@@ -358,6 +361,16 @@ main img {
     list-style-type: square;
 }
 
+
+/* QUOTES ================================================ */
+.quotes {
+    font-size: 1.5rem;
+    padding-bottom: 40px;
+}
+.quote-author {
+    display: block;
+    padding-top: 10px;
+}
 
 /* FOOTER ================================================ */
 footer {
