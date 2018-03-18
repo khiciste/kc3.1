@@ -27,7 +27,7 @@ $(document).ready(function() {
         displaySelectedQuotes($("#quote-" + i));
     });
     // previous quote button
-    $("#previous-quote-btn").click(function() {
+    $("#prev-quote-btn").click(function() {
         i--;
         if (i == 0) { i = totalQuotes; }
         $('.quotes').css({"display": "none"});
