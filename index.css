@@ -155,7 +155,7 @@ main {
 .btn { margin-right: 5px; margin-bottom: 10px;}
 .btn:hover { color: white; }
 
-
+/*http://mediag.com/news/popular-screen-resolutions-designing-for-all/*/
 /* LARGE SCREENS AND UP*/
 @media (min-width: 992px) {
     nav {
@@ -363,6 +363,10 @@ main img {
 
 
 /* QUOTES ================================================ */
+.quotes-btn {
+    padding-left: 20px;
+    padding-right: 20px;
+}
 .quotes {
     font-size: 1.5rem;
     padding-bottom: 40px;
