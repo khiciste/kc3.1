@@ -247,7 +247,6 @@ main {
     .modal-img {
         position: relative;
         display: inline-block;
-        /*height: 60vh;*/
         width: 70vw;
         height: auto;
     }
@@ -331,7 +330,6 @@ main img {
 @media (max-width: 460px) {
     .title          { font-size: 3rem; }
     .author         { font-size: 2rem; }
-    /*#black-hole-btn { font-size: 1rem; }*/
 }
 .review .btn { 
     font-weight: bold; 
@@ -368,8 +366,7 @@ main img {
     padding-right: 20px;
 }
 .quotes {
-    font-size: 1.5rem;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
 }
 .quote-author {
     display: block;
