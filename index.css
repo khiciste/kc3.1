@@ -156,7 +156,7 @@ main {
 .btn:hover { color: white; }
 
 /*http://mediag.com/news/popular-screen-resolutions-designing-for-all/*/
-/* LARGE SCREENS AND UP*/
+/* X-LARGE SCREENS */
 @media (min-width: 992px) {
     nav {
         margin: 20px;
@@ -186,7 +186,7 @@ main {
         height: auto;
     }
 }
-/* MEDIUM SCREENS AND UP */
+/* LARGE SCREENS */
 @media (max-width: 991px) {
     nav {
         margin: 20px 0px 20px 10px;
@@ -219,7 +219,7 @@ main {
         height: auto;
     }
 }
-/* SMALL SCREENS AND UP */
+/* MEDIUM SCREENS */
 @media (max-width: 767px) {
     nav {
         padding-right: 10px;
@@ -236,7 +236,7 @@ main {
         height: auto;
     }
 }
-/* phone SCREENS */
+/* SMALL SCREENS */
 @media (max-width: 479px) {
     #nav_first_name {
         font-size: 3rem;
