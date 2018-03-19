@@ -264,12 +264,12 @@ h3 {
 .italics {
     font-style: italic;
 }
-p, main ul {
-    font-size: 1.2rem;
-}
 a, a:hover {
     color: #0000ca;
     text-decoration: none;
+}
+.body-para {
+    font-size: 1.2rem !important;
 }
 main img {
     position: relative;
@@ -315,6 +315,7 @@ main img {
 	color: rgb(0, 89, 45);
 }
 
+
 /* FAVORITES ============================================= */
 .tag-row       { margin-left: 0; }
 .active-post   { display: block; }
@@ -324,9 +325,7 @@ main img {
     margin-top: 30px;
     margin-bottom: 15px;
 }
-.author { 
-    font-size: 2.5rem; 
-}
+.author { font-size: 2.5rem; }
 @media (max-width: 460px) {
     .title          { font-size: 3rem; }
     .author         { font-size: 2rem; }
@@ -366,6 +365,7 @@ main img {
     padding-right: 20px;
 }
 .quotes {
+    font-size: 1.4rem !important;
     padding-bottom: 30px;
 }
 .quote-author {
