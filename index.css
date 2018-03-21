@@ -268,7 +268,7 @@ a, a:hover {
     color: #0000ca;
     text-decoration: none;
 }
-.body-para {
+.body-para, main ul, main ol {
     font-size: 1.2rem !important;
 }
 main img {
