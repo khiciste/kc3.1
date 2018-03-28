@@ -9,12 +9,15 @@ $(document).ready(function() {
     // MODAL INITIALIZATION
     $('.modal').modal();
     
+<<<<<<< HEAD
     // CLASSES FLOATING ACTION BUTTON
     $("#classes-btn").floatingActionButton({
         'direction': 'right',
         'hoverEnabled': false
     });
     
+=======
+>>>>>>> 491377d89cca8dc19800fcc18e7b62b6166e8b2b
     // for snowboarder additive identity
     $("#whatProp").mouseenter(function(){
         $("#addIdDiv").fadeTo("slow", 1);

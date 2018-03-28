@@ -11,6 +11,7 @@ html {
 }
 
 /* FONTS */
+<<<<<<< HEAD
 body           { font-family: 'Roboto', 'Open Sans', sans-serif; }
 .special-elite { font-family: 'Special Elite', monospace; }
 .marker        { font-family: 'Permanent Marker', 'Work Sans', sans-serif !important; }
@@ -22,6 +23,15 @@ body           { font-family: 'Roboto', 'Open Sans', sans-serif; }
 /* COLORS */
 .hangouts-green { background-color: #0f9d58; }
 .hangouts-green:hover { background-color: #0f9d58; }
+=======
+body         { font-family: 'Open Sans', sans-serif; }
+.fiction     { font-family: 'Special Elite', monospace; }
+.marker      { font-family: 'Permanent Marker', 'Work Sans', sans-serif !important; }
+.non-fiction { font-family: 'Cutive Mono', monospace; }
+.open-sans   { font-family: 'Open Sans', sans-serif; }
+.roboto      { font-family: 'Roboto', sans-serif; }
+.work-sans   { font-family: 'Work Sans', sans-serif; }
+>>>>>>> 491377d89cca8dc19800fcc18e7b62b6166e8b2b
 
 .container {
     /*border: 4px solid black;*/
@@ -30,8 +40,13 @@ body           { font-family: 'Roboto', 'Open Sans', sans-serif; }
     overflow-x: hidden;
 }
 .centered {
+<<<<<<< HEAD
     margin-left: auto !important;
     margin-right: auto !important;
+=======
+    margin-left: auto;
+    margin-right: auto;
+>>>>>>> 491377d89cca8dc19800fcc18e7b62b6166e8b2b
 }
 .centered-text {
     text-align: center;
@@ -91,8 +106,11 @@ nav, .nav-wrapper {
 .nav-wrapper .hide-on-med-and-down li a {
     color: #0000ca;
 }
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 491377d89cca8dc19800fcc18e7b62b6166e8b2b
 /* SIDENAV ================================================ */
 .sidenav {
     background-color: whitesmoke;
@@ -152,12 +170,21 @@ main {
     font-size: 3.2rem;
 }
 
+<<<<<<< HEAD
 .btn { margin-right: 5px; margin-bottom: 10px;}
 .btn:hover { color: white; }
 
 /*http://mediag.com/news/popular-screen-resolutions-designing-for-all/*/
 /* X-LARGE SCREENS */
 @media (min-width: 992px) {
+=======
+.btn:hover {
+	color: white;
+}
+
+/*BIG SCREENS*/
+@media (min-width: 1111px) {
+>>>>>>> 491377d89cca8dc19800fcc18e7b62b6166e8b2b
     nav {
         margin: 20px;
         padding-right: 60px;
@@ -179,6 +206,7 @@ main {
         width: 50vw;
         height: auto;
     }
+<<<<<<< HEAD
     .modal-img {
         position: relative;
         display: inline-block;
@@ -188,6 +216,11 @@ main {
 }
 /* LARGE SCREENS */
 @media (max-width: 991px) {
+=======
+}
+/*MEDIUM SCREENS*/
+@media (max-width: 1110px) {
+>>>>>>> 491377d89cca8dc19800fcc18e7b62b6166e8b2b
     nav {
         margin: 20px 0px 20px 10px;
         padding-right: 20px;
@@ -212,6 +245,7 @@ main {
         width: 75vw;
         height: auto;
     }
+<<<<<<< HEAD
     .modal-img {
         position: relative;
         display: inline-block;
@@ -221,11 +255,17 @@ main {
 }
 /* MEDIUM SCREENS */
 @media (max-width: 767px) {
+=======
+}
+/* SMALL SCREENS */
+@media (max-width: 600px) {
+>>>>>>> 491377d89cca8dc19800fcc18e7b62b6166e8b2b
     nav {
         padding-right: 10px;
     }
     #brand-img {
         /*border: 2px dashed orange;*/
+<<<<<<< HEAD
         height: 8vw;
         width: auto;
     }
@@ -238,18 +278,29 @@ main {
 }
 /* SMALL SCREENS */
 @media (max-width: 479px) {
+=======
+        height: 8vh;
+        width: auto;
+    }
+}
+/* SMALL SCREENS */
+@media (max-width: 440px) {
+>>>>>>> 491377d89cca8dc19800fcc18e7b62b6166e8b2b
     #nav_first_name {
         font-size: 3rem;
     }
     #nav_last_name {
         font-size: 2rem;
     }
+<<<<<<< HEAD
     .modal-img {
         position: relative;
         display: inline-block;
         width: 70vw;
         height: auto;
     }
+=======
+>>>>>>> 491377d89cca8dc19800fcc18e7b62b6166e8b2b
 }
 
 h3 {
@@ -258,19 +309,27 @@ h3 {
     font-family: 'Work Sans', 'Open Sans', sans-serif;
     font-size: 2rem;
 }
+<<<<<<< HEAD
 .CAPS {
     text-transform: UPPERCASE;
 }
 .italics {
     font-style: italic;
+=======
+p, main ul {
+    font-size: 1.2rem;
+>>>>>>> 491377d89cca8dc19800fcc18e7b62b6166e8b2b
 }
 a, a:hover {
     color: #0000ca;
     text-decoration: none;
 }
+<<<<<<< HEAD
 .body-para, main ul, main ol {
     font-size: 1.2rem !important;
 }
+=======
+>>>>>>> 491377d89cca8dc19800fcc18e7b62b6166e8b2b
 main img {
     position: relative;
     display: block;
@@ -278,10 +337,13 @@ main img {
     margin-right: auto;
 }
 
+<<<<<<< HEAD
 .valign-middle {
     vertical-align: middle;
 }
 
+=======
+>>>>>>> 491377d89cca8dc19800fcc18e7b62b6166e8b2b
 .caption {
 	margin-top: 16px;
 	position: relative;
@@ -317,18 +379,34 @@ main img {
 
 
 /* FAVORITES ============================================= */
+<<<<<<< HEAD
 .tag-row       { margin-left: 0; }
 .active-post   { display: block; }
 .inactive-post { display: none; }
 .review        { padding-bottom:20px; }
+=======
+.review {
+    padding-bottom:20px;
+}
+>>>>>>> 491377d89cca8dc19800fcc18e7b62b6166e8b2b
 .title {
     margin-top: 30px;
     margin-bottom: 15px;
 }
+<<<<<<< HEAD
 .author { font-size: 2.5rem; }
 @media (max-width: 460px) {
     .title          { font-size: 3rem; }
     .author         { font-size: 2rem; }
+=======
+.author { 
+    font-size: 2.5rem; 
+}
+@media (max-width: 460px) {
+    .title          { font-size: 3rem; }
+    .author         { font-size: 2rem; }
+    /*#black-hole-btn { font-size: 1rem; }*/
+>>>>>>> 491377d89cca8dc19800fcc18e7b62b6166e8b2b
 }
 .review .btn { 
     font-weight: bold; 
@@ -359,6 +437,7 @@ main img {
 }
 
 
+<<<<<<< HEAD
 /* QUOTES ================================================ */
 .quotes-btn {
     padding-left: 20px;
@@ -373,12 +452,15 @@ main img {
     padding-top: 10px;
 }
 
+=======
+>>>>>>> 491377d89cca8dc19800fcc18e7b62b6166e8b2b
 /* FOOTER ================================================ */
 footer {
     /*border: 2px solid blue;*/
     width: 100%;
 }
 .footer-flex-container {
+<<<<<<< HEAD
     position: absolute;
     width: 79%;    
 }
@@ -398,6 +480,30 @@ footer {
 }
 .glyphs {
     vertical-align: middle !important;
+=======
+    /*border: 2px dashed blue;*/
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    position: relative;
+    width: 80%;    
+}
+.foot {
+    float: right;
+    position: relative;
+    margin-left: 0;
+    display: block;
+    color: gray;
+    font-size: 12px;
+    vertical-align: super;
+}
+#foot-name-link {
+    margin-right: 5px;
+}
+.glyphs {
+    float: right;
+>>>>>>> 491377d89cca8dc19800fcc18e7b62b6166e8b2b
     height: 18px;
     width: auto;
 }
@@ -405,6 +511,7 @@ footer {
     height: 20px;
     width: auto;
 }
+<<<<<<< HEAD
 /* any font awesome icon */
 .fab, .fas {
     color: black;
@@ -416,6 +523,8 @@ footer {
 .fa-globe {
     margin-left: 8px;
 }
+=======
+>>>>>>> 491377d89cca8dc19800fcc18e7b62b6166e8b2b
 
 /*COLORS*/
     /* spotify green */

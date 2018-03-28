@@ -45,9 +45,13 @@ h6 {
     color: white;
     border-radius: 3px;
     display: inline-block;
+<<<<<<< HEAD
     font-family: 'Work Sans', 'Roboto', sans-serif;
     font-weight: normal;
     text-transform: UPPERCASE;
+=======
+    font-weight: normal;
+>>>>>>> 491377d89cca8dc19800fcc18e7b62b6166e8b2b
     padding: 6px;
     margin: 4px 4px;
     box-shadow: 2px 2px 2px #888888;
@@ -58,10 +62,17 @@ h6 {
 }
 .tag.course {
     color:white;
+<<<<<<< HEAD
     background-color: #7b1fa2; /* purple accent-3 */
 }
 .tag.course:hover {
     background-color: #d500f9;
+=======
+    background-color: #7b1fa2; /* purple darken-2 */
+}
+.tag.course:hover {
+    background-color: #ab47bc;
+>>>>>>> 491377d89cca8dc19800fcc18e7b62b6166e8b2b
 }
 
 .all {
@@ -72,7 +83,11 @@ h6 {
 }
 .card {
     /*width: 700px;*/
+<<<<<<< HEAD
     height: 600px;
+=======
+    height: 500px;
+>>>>>>> 491377d89cca8dc19800fcc18e7b62b6166e8b2b
     border: 1px solid #757575;
     display: inline-block;
     margin: 10px;
@@ -81,6 +96,7 @@ h6 {
     position: relative;
     box-shadow: 5px 5px 3px #888888;
 }
+<<<<<<< HEAD
 .card-title, .subtitle {
     text-transform: UPPERCASE;
 }
@@ -140,6 +156,43 @@ h6 {
   img {
     width: 225px;
     height: auto;
+=======
+
+.image {
+    position: absolute;
+    right: 20px;
+}
+img {
+    width: auto;
+    height: 300px;
+}
+
+@media (max-width: 600px) {
+  .card {
+      height: 500px;
+  }
+  span {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 800px) {
+  .card {
+    width: 700px;
+  }
+  img {
+      max-width: 600px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .card {
+    height: 500px;
+    width: 900px;
+  }
+  img {
+      max-width: 800px;
+>>>>>>> 491377d89cca8dc19800fcc18e7b62b6166e8b2b
   }
 }
 

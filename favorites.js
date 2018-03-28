@@ -11,6 +11,7 @@ $(document).ready(function() {
     $("#brain-rules-insights-btn").click(function() {
         $("#brain-rules-insights").fadeToggle("slow");
     });
+<<<<<<< HEAD
     
     // TAGS
     // $("#fiction-tag").click(function() {
@@ -48,4 +49,6 @@ $(document).ready(function() {
         $('.post').removeClass("inactive-post").addClass("active-post");
     });
     
+=======
+>>>>>>> 491377d89cca8dc19800fcc18e7b62b6166e8b2b
 })

@@ -41,7 +41,11 @@ html {
 	background-color: #fdd835;
 }
 #celtics, .celtics {
+<<<<<<< HEAD
 	background-color: #0f9d58 !important; /* google hangouts green */
+=======
+	background-color: #0f9d58; /* google hangouts green */
+>>>>>>> 491377d89cca8dc19800fcc18e7b62b6166e8b2b
 }
 #yankees, .yankees {
 	background-color: #283593;
@@ -56,6 +60,7 @@ html {
 @media (max-width: 600px) {
 	.btn { font-size: 1rem; }
 }
+<<<<<<< HEAD
 
 #classes-btn {
 	position: relative;
@@ -67,6 +72,10 @@ html {
 #go-btn {
 	display: block;
 	margin-bottom: 20px;
+=======
+#go-btn {
+    background-color: purple;
+>>>>>>> 491377d89cca8dc19800fcc18e7b62b6166e8b2b
 }
 
 /* INDIVIDUAL STUDENTS */
@@ -82,6 +91,11 @@ html {
 	border-radius: 2px;	
 	color: white;
 	display: inline-block;
+<<<<<<< HEAD
+=======
+	font-family: 'Roboto', sans-serif;
+	font-weight: normal;
+>>>>>>> 491377d89cca8dc19800fcc18e7b62b6166e8b2b
 	margin-bottom: 5px;
 	margin-left: 10px;
 	padding-top: 10px;

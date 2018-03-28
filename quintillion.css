@@ -83,12 +83,18 @@ input {
     width: 240px;
 }
 .bigNumber {
+<<<<<<< HEAD
     font-size: 3rem;
     text-align: center;
 }
 .strikethrough {
     text-decoration: line-through;
 }
+=======
+    font-size: 5vw;
+    text-align: center;
+}
+>>>>>>> 491377d89cca8dc19800fcc18e7b62b6166e8b2b
 .repeating {
     text-decoration: overline;
 }

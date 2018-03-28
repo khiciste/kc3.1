@@ -9,9 +9,14 @@ $img$ - image location for card
 $created$ - created-by attribution for card
 */
 cardhtml = `<div class="card">
+<<<<<<< HEAD
                 <span class="card-title" style="font-weight: bold;">$title$</span>
                 <span class="subtitle">$subtitle$</span>
                 <span class="desc" style="padding-bottom: 15px; font-weight: light;">$desc$</span>
+=======
+                <span style="font-weight:bold;">$title$</span><span class="subtitle">&nbsp;&nbsp;&nbsp;&nbsp;$subtitle$</span><br>
+                <span>$desc$</span>
+>>>>>>> 491377d89cca8dc19800fcc18e7b62b6166e8b2b
                 <div class="image">
                     <img src="$img$" />
                 </div>
@@ -40,7 +45,11 @@ function appendHTML(el, obj) {
 $(document).ready(()=> {
     $.ajax({ 
         type: 'GET', 
+<<<<<<< HEAD
         url: 'mathcards.json', // url of the json file
+=======
+        url: 'math.json', // url of the json file
+>>>>>>> 491377d89cca8dc19800fcc18e7b62b6166e8b2b
         dataType: 'json',
         success: function (data) { 
             
